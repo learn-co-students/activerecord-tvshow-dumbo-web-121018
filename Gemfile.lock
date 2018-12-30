@@ -15,6 +15,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.4)
+    awesome_print (1.8.0)
     builder (3.2.3)
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
@@ -51,7 +52,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (= 4.2.5)
+  activerecord
+  awesome_print
   database_cleaner
   pry
   rake (= 10.4.2)
@@ -59,4 +61,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
